@@ -13,7 +13,7 @@
         ID_SMART_BANNER = '#smartbanner',
         SB_NATIVE_SUPPORT_IOS = 6,
         APPLE_TOUCH_DEFAULT = 'apple-touch-icon.png',
-        
+
         defaults = {
             type: null,                     // Force OS type of banner
             icon: null,                     // Icon URL. Default from <link rel="apple-touch-icon" href="../..">, then http://<host_name>/apple-touch-icon.png
@@ -21,7 +21,7 @@
             author: null,                   // Application author. Default from <meta name="author" content="...">, then host name
             price: 'FREE',                  // Price of application
             button: 'VIEW',                 // Button text
-            url: null,                      // URL to the app on the market. Will be generate automatically
+            url: null,                      // URL to the app on the market. Will be generated automatically
             inGooglePlay: 'In Google Play', // Google Play market text
             inAppStore: 'On the App Store', // App Store text
             showDelay: 300,                 // Delay before show banner
