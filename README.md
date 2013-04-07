@@ -3,7 +3,8 @@ Smart banner for Android and iOS < 6.
 
 ## Usage ##
 If jQuery used, smartBanner will be applied as plugin, and could be run with `$.smartBanner([options])`. 
-In another case it will be appended to global scope, so could be used as `smartBanner([options])`.
+In another case it will be appended to global scope, so could be used as `smartBanner([options])` 
+or `window.smartBanner([options])`.
 
 ### Options
  * `type` — Force OS type of banner: `ios` or `android`.
