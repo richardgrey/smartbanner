@@ -1,0 +1,162 @@
+/* Placeholder for Smart Banner */
+.sb-placeholder {
+    height: 0;
+    overflow: hidden;
+    -webkit-transition: height .3s ease;
+    }
+
+/* Smart Banner */
+.sb {
+    position: absolute;
+    left: 0;
+    top: -80px;
+    overflow: hidden;
+    width: 100%;
+    background-image: url(data:image/png;base64,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), -webkit-linear-gradient(top, #f4f4f4, #cdcdcd);
+    border-bottom: 1px solid #e8e8e8;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+    z-index: 9998;
+    -webkit-transition: top .3s ease;
+    direction: ltr;
+    }
+.sb__wrap,
+.sb__wrap:focus,
+.sb__wrap:hover,
+.sb__wrap:active {
+    color: #6a6a6a;
+    font: bold 10px/12px "Helvetica Neue",sans-serif;
+    display: block;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 10px 2.2% 10px 30px;
+    background: none;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #fff;
+    }
+.sb__info {
+    display: block;
+    overflow: hidden;
+    }
+.sb__info b {
+    color: #4d4d4d;
+    font-size: 12px;
+    display: block;
+    margin: 10px 0 3px;
+    }
+.sb__info span {
+    color: #6a6a6a;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    }
+.sb__btn {
+    color: #6a6a6a;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 25px;
+    float: right;
+    min-width: 10%;
+    margin: 12px 0 12px 10px;
+    padding: 0 10px;
+    background: -webkit-linear-gradient(top, #fefefe, #f0f0f0 15%, #d7d7d7 85%, #d1d1d1);
+    border: 1px solid #afafaf;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 #fff;
+    text-align: center;
+    text-shadow: 0 1px 0 #fff;
+    text-transform: uppercase;
+    }
+.sb__btn:active {
+    background: #d1d1d1;
+    box-shadow: 0 1px 0 #fff, inset 0 1px 1px rgba(51,51,51,.15);
+    border-top-color: #999;
+    border-bottom-color: #bfbfbf;
+    }
+.sb__ico {
+    position: relative;
+    float: left;
+    width: 57px;
+    height: 57px;
+    margin-right: 10px;
+    border-radius: 10px;
+    -webkit-background-size: cover;
+    box-shadow: 0 1px 3px rgba(64, 64, 64, .36);
+    }
+.sb__ico_gloss:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -1px;
+    border-top: 1px solid rgba(255, 255, 255, 0.8);
+    width: 100%;
+    height: 50%;
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.2) 100%);
+    border-radius: 10px 10px 12px 12px;
+    }
+.sb__close {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    display: block;
+    border: 2px solid #fff;
+    width: 14px;
+    height: 14px;
+    background: #070707 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAbCAYAAABvCO8sAAAAa0lEQVR42u3VMQ7AMAhD0d4c35yOKEOwkn51AokN6S22eDLz1x1wQBhcJ5q7WC4BsFCDoWChK0aC2qENJgdeoQYzIIOKroUcRoPRgAGDhX1FjzACvcVkKoMWXy5IJCiTXhIszKHzDwcc8GhfocBXKBSc8DYAAAAASUVORK5CYII=) no-repeat;
+    -webkit-background-size: cover;
+    border-radius: 14px;
+    box-shadow: 0 2px 3px rgba(51, 51, 51, 0.7), 0 0 1px  rgba(51, 51, 51, 0.4);
+    cursor: pointer;
+    }
+
+/**
+ * @mod android
+ * Change styling of banner to Google Play style.
+ */
+.sb_android {
+    border-color: #212228;
+    background: #3d3d3d url(data:image/gif;base64,R0lGODlhCAAIAIABAFVVVf///yH5BAEHAAEALAAAAAAIAAgAAAINRG4XudroGJBRsYcxKAA7);
+    border-top: 5px solid #88B131;
+    box-shadow: none;
+    }
+.sb_android .sb__close:active {
+    color: #eee;
+    }
+.sb_android .sb__info,
+.sb_android .sb__info span {
+    color: #ccc;
+    font-size: 11px;
+    line-height: 14px;
+    text-shadow: 0 1px 2px #000;
+    }
+.sb_android .sb__info b {
+    color: #fff;
+    font-size: 13px;
+    margin-top: 7px;
+    }
+.sb_android .sb__btn {
+    color: #fff;
+    min-width: 12%;
+    padding: 0 10px;
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#42b6c9),to(#39a9bb));
+    border: 1px solid #3d3d3d;
+    outline: 1px solid #dddcdc;
+    border-radius: 0;
+    box-shadow: none;
+    text-shadow: none;
+    }
+.sb_android .sb__btn:active,
+.sb_android .sb__btn:hover {
+    background: #2ac7e1;
+    }
+.sb_android .sb__close {
+    width: 17px;
+    height: 17px;
+    background-color: #1c1e21;
+    border: 0;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.8), 0 1px 1px rgba(255, 255, 255, 0.3);
+    }
+.sb_android .sb__close:active {
+    color: #eee;
+    }
