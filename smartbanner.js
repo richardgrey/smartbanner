@@ -13,17 +13,18 @@
         ID_SMART_BANNER = '#smartbanner',
         SB_NATIVE_SUPPORT_IOS = 6,
         APPLE_TOUCH_DEFAULT = 'apple-touch-icon.png',
+        
         defaults = {
             type: null,                     // Force OS type of banner
-            title: null,                    // Application title
-            author: null,                   // Application author
+            icon: null,                     // Icon URL. Default from <link rel="apple-touch-icon" href="../..">, then http://<host_name>/apple-touch-icon.png
+            title: null,                    // Application title. Default from <title>...</title>
+            author: null,                   // Application author. Default from <meta name="author" content="...">, then host name
             price: 'FREE',                  // Price of application
             button: 'VIEW',                 // Button text
-            url: null,                      // URL to the app on the market
-            icon: null,                     // Icon URL
+            url: null,                      // URL to the app on the market. Will be generate automatically
             inGooglePlay: 'In Google Play', // Google Play market text
             inAppStore: 'On the App Store', // App Store text
-            showDelay: 300,                 // Delay before show
+            showDelay: 300,                 // Delay before show banner
             animTime: null,                 // Timing for hide animation in second. Set `null` to get it from styles
             daysHidden: 15,                 // How many days to keep banner hidden when it closed by user
             daysRemind: 30,                 //          when user follow link
